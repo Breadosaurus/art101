@@ -1,3 +1,18 @@
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+body {
+  background-color: lavender;
+  text-align:center;
+}
+
+#callout {
+  border-style: dashed;
+  background-color: white;
+  width:800;
+}
+
 #me {
-  width:500px
+  width:400px
 }
