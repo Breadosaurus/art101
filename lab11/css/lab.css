@@ -1,0 +1,41 @@
+h1 {
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+h2 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+#content{
+  border-style: groove;
+  background-color: IndianRed;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: monospace;
+  padding: 20px;
+  color: white;
+  box-shadow: 10px 5px 5px black;
+
+
+}
+
+
+.special {
+  color: black;
+  text-shadow: 2px 2px #990033;
+}
