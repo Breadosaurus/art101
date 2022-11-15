@@ -6,22 +6,28 @@ License: Public Domain
 
 //Taking in a string as an argument, counting the letters in that string and assigning it to a variable length
 function sortingHat(str) {
+//An array with all the houses
+  const houseList = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"];
   len = str.length;
   mod = len % 4;
 
+//Uses mod as an index for the array to determine house
+  return houseList[mod]
+
+//Commented out due to refactoring
 //Creating a conditional that will return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff depending on whether the value of mod is 0,1,2, or 3
-  if (mod == 0) {
-    return "Gryffindor"
-  }
-  else if (mod == 1) {
-    return "Ravenclaw"
-  }
-  else if (mod == 2 ) {
-    return "Slytherin"
-  }
-  else if (mod == 3) {
-    return "Hufflepuff"
-  }
+//  if (mod == 0) {
+//    return "Gryffindor"
+//  }
+//  else if (mod == 1) {
+//    return "Ravenclaw"
+//  }
+//  else if (mod == 2 ) {
+//    return "Slytherin"
+//  }
+//  else if (mod == 3) {
+//    return "Hufflepuff"
+//  }
 }
 
 //Creating a click listener attached to #button that gets the value of #input and assigns it to a variable name
